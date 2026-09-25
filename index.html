@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Care Hospital — Rajpura | 24-Hour Multispecialty Care</title>
+  <meta name="description" content="Apex Care Hospital, Rajpura — 24-hour emergency and multispecialty care on Jammu-Delhi Road, Bharat Colony. Call anytime or get directions.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a1628'/%3E%3Cpath d='M50 20L30 70h10l10-30 10 30h10z' fill='%2300e676'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="images-manifest.js"></script>
+</head>
+<body>
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header id="header">
+    <div class="container nav-container">
+      <a href="#top" class="logo" aria-label="Apex Care Hospital Home">
+        <img src="images/logo.png" alt="Apex Care Hospital Logo" class="logo-img" id="logoImg">
+        <div class="logo-text">
+          <span class="logo-name">Apex Care</span>
+          <span class="logo-sub">Hospital</span>
+        </div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-phone" href="tel:+919814203081">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.25a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+          098142 03081
+        </a>
+        <a href="tel:+919814203081" class="btn btn-emergency-nav">
+          <span class="pulse-dot"></span> Emergency
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#location">Location</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:+919814203081" class="btn btn-emergency-nav mobile-emergency">
+        <span class="pulse-dot"></span> Emergency Call
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ═══════════ HERO (images loaded dynamically from images/hero/) ═══════════ -->
+    <section class="hero" id="heroSection">
+      <div class="hero-bg" id="heroBg">
+        <!-- Hero images injected dynamically from images/hero/ folder -->
+        <div class="hero-overlay"></div>
+      </div>
+      <!-- Hero image indicators -->
+      <div class="hero-indicators" id="heroIndicators"></div>
+      <div class="container hero-content">
+        <div class="hero-badge anim-up d1">
+          <span class="pulse-dot"></span>
+          24/7 Emergency Care Available
+        </div>
+        <h1 class="hero-title anim-up d2">
+          Advanced <span class="gradient-text">Multispecialty</span> Care for Rajpura
+        </h1>
+        <p class="hero-desc anim-up d3">
+          Apex Care Hospital sits on the Jammu–Delhi Road in Bharat Colony, Sector 23 — equipped with modern facilities, experienced doctors, and round-the-clock emergency services.
+        </p>
+        <div class="hero-btns anim-up d4">
+          <a href="tel:+919814203081" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.25a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+            Call Now
+          </a>
+          <a href="https://www.google.com/maps/place/Apex+Care+Hospital/data=!4m2!3m1!1s0x0:0xecb72e89a5816e2a?sa=X&ved=1t:2428&ictx=111" target="_blank" rel="noopener" class="btn btn-outline-light">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            Get Directions
+          </a>
+          <a href="#services" class="btn btn-ghost-light">
+            Our Services →
+          </a>
+        </div>
+        <div class="hero-stats anim-up d5">
+          <div class="hero-stat">
+            <span class="hero-stat-num">24/7</span>
+            <span class="hero-stat-label">Emergency Desk</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">5.0★</span>
+            <span class="hero-stat-label">Google Rating</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">6+</span>
+            <span class="hero-stat-label">Specialities</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">Sector 23</span>
+            <span class="hero-stat-label">Bharat Colony, Rajpura</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════ STATS BAND ═══════════ -->
+    <section class="stats-band">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div>
+            <span class="stat-number" data-count="24">0</span><span class="stat-suffix">/7</span>
+            <span class="stat-label">Hours Open Every Day</span>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div>
+            <span class="stat-number" data-count="5000">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Patients Treated Annually</span>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4v16M4 12h16"/></svg>
+          </div>
+          <div>
+            <span class="stat-number" data-count="6">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Core Specialities</span>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg>
+          </div>
+          <div>
+            <span class="stat-number" data-count="5">0</span><span class="stat-suffix">.0★</span>
+            <span class="stat-label">Google Reviews Rating</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ABOUT (images loaded dynamically from images/about/) ═══════════ -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-images scroll-reveal" id="aboutImages">
+            <!-- About images injected dynamically from images/about/ folder -->
+          </div>
+          <div class="about-content scroll-reveal">
+            <span class="section-tag">About Apex Care</span>
+            <h2 class="section-title">A Neighbourhood Hospital Built Around <span class="gradient-text">Your Emergency</span></h2>
+            <p class="about-desc">
+              Apex Care Hospital was set up to close the gap between "something's wrong" and "someone's helping" — with an emergency desk that never closes and a team that treats Rajpura families as neighbours, not case numbers.
+            </p>
+            <p class="about-desc">
+              Located on the Jammu–Delhi Road in Bharat Colony, Sector 23, we combine proximity with capability — close enough to reach fast, equipped enough to trust with the moments that can't wait.
+            </p>
+            <div class="about-features">
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div>
+                  <h4>Trusted by Families</h4>
+                  <p>Rated 5.0 on Google by the families who've walked through our doors.</p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+                <div>
+                  <h4>Never Closed</h4>
+                  <p>Emergency desk staffed at 3 a.m. the same as 3 p.m. — every single day.</p>
+                </div>
+              </div>
+              <div class="about-feature">
+                <div class="feature-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div>
+                  <h4>Complete Care</h4>
+                  <p>Medicine, surgery, diagnostics, and pharmacy all under one roof.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SERVICES ═══════════ -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header center scroll-reveal">
+          <span class="section-tag">Our Departments</span>
+          <h2 class="section-title">Comprehensive <span class="gradient-text">Medical Services</span></h2>
+          <p class="section-desc">From a 2 a.m. emergency to a planned procedure — these are the departments patients come to us for most.</p>
+        </div>
+        <div class="services-grid scroll-reveal">
+          <div class="service-card">
+            <div class="service-card-icon emergency-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16M4 12h16"/></svg>
+            </div>
+            <h3>Emergency & Trauma</h3>
+            <p>Round-the-clock emergency desk with a team ready for accidents, injuries and sudden illness. Quick response, any hour.</p>
+            <div class="service-tag">24/7 Available</div>
+          </div>
+          <div class="service-card">
+            <div class="service-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg>
+            </div>
+            <h3>General Medicine</h3>
+            <p>Everyday consultations, chronic condition management, and follow-up care for the whole family with experienced physicians.</p>
+            <div class="service-tag">OPD Available</div>
+          </div>
+          <div class="service-card">
+            <div class="service-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </div>
+            <h3>Surgery</h3>
+            <p>Planned and emergency surgical care with pre- and post-operative monitoring by experienced surgeons on site.</p>
+            <div class="service-tag">Expert Surgeons</div>
+          </div>
+          <div class="service-card">
+            <div class="service-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+            </div>
+            <h3>Diagnostics & Lab</h3>
+            <p>On-site testing and imaging so results reach your doctor the same day — blood tests, X-rays, and more.</p>
+            <div class="service-tag">Same Day Results</div>
+          </div>
+          <div class="service-card">
+            <div class="service-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3>Pharmacy</h3>
+            <p>An in-house pharmacy stocked for prescriptions written the same visit, day or night. No need to go elsewhere.</p>
+            <div class="service-tag">In-House</div>
+          </div>
+          <div class="service-card">
+            <div class="service-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.35-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.65-9 9-9 9z"/></svg>
+            </div>
+            <h3>Maternity & Child Care</h3>
+            <p>Attentive care for mothers and children — from routine check-ups to delivery support and neonatal care.</p>
+            <div class="service-tag">Mother & Child</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ WHY CHOOSE US ═══════════ -->
+    <section class="why-section" id="why">
+      <div class="container">
+        <div class="why-grid">
+          <div class="why-content scroll-reveal">
+            <span class="section-tag">Why Choose Us</span>
+            <h2 class="section-title">Why Rajpura <span class="gradient-text">Trusts Apex Care</span></h2>
+            <div class="why-list">
+              <div class="why-item">
+                <div class="why-number">01</div>
+                <div>
+                  <h4>Open Every Hour, Every Day</h4>
+                  <p>The emergency desk doesn't keep office hours — it's staffed at 3 a.m. the same as 3 p.m.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-number">02</div>
+                <div>
+                  <h4>On the Jammu–Delhi Road</h4>
+                  <p>Easy to find and easy to reach from across Rajpura, with parking right at the entrance.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-number">03</div>
+                <div>
+                  <h4>Multiple Specialities, One Visit</h4>
+                  <p>Medicine, surgery, diagnostics and pharmacy sit under the same roof, so care doesn't stall on a referral.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-number">04</div>
+                <div>
+                  <h4>Rated 5.0 by Patients</h4>
+                  <p>Reviewed and recommended by the families who've walked through our doors on Google.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="why-visual scroll-reveal" id="whyVisual">
+            <!-- Why section image loaded from first about image -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ GALLERY (images loaded dynamically from images/gallery/) ═══════════ -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="section-header center scroll-reveal">
+          <span class="section-tag">Our Facilities</span>
+          <h2 class="section-title">Take a Look <span class="gradient-text">Inside</span></h2>
+          <p class="section-desc">Modern facilities designed with patient comfort and advanced medical care in mind.</p>
+        </div>
+        <div class="gallery-grid scroll-reveal" id="galleryGrid">
+          <!-- Gallery images injected dynamically from images/gallery/ folder -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ TESTIMONIALS ═══════════ -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header center scroll-reveal">
+          <span class="section-tag">Patient Reviews</span>
+          <h2 class="section-title">What Our <span class="gradient-text">Patients Say</span></h2>
+        </div>
+        <div class="testimonials-grid scroll-reveal">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p>"Excellent hospital with very caring staff. The emergency response was incredibly fast. Highly recommend Apex Care Hospital to everyone in Rajpura!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">R</div>
+              <div>
+                <strong>Ravinder Singh</strong>
+                <span>Rajpura</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p>"Best hospital in Rajpura. Clean, well-maintained, and the doctors are very experienced. My delivery was handled so well. Thank you, Apex Care!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">P</div>
+              <div>
+                <strong>Priya Kaur</strong>
+                <span>Bharat Colony</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p>"We brought our son here at 2 AM for a high fever. The staff was prompt, professional, and genuinely caring. The pharmacy being open 24/7 is a huge plus."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">A</div>
+              <div>
+                <strong>Amit Verma</strong>
+                <span>Sector 23</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CTA BAND ═══════════ -->
+    <section class="cta-band">
+      <div class="container cta-content">
+        <div class="cta-text">
+          <h2>Need Immediate Medical Attention?</h2>
+          <p>Our emergency team is available 24/7. Don't wait — call us now or walk in anytime.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="tel:+919814203081" class="btn btn-cta">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.25a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+            Call 098142 03081
+          </a>
+          <a href="https://www.google.com/maps/place/Apex+Care+Hospital/data=!4m2!3m1!1s0x0:0xecb72e89a5816e2a?sa=X&ved=1t:2428&ictx=111" target="_blank" rel="noopener" class="btn btn-outline-dark">
+            Get Directions
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ LOCATION ═══════════ -->
+    <section id="location" class="location-section">
+      <div class="container">
+        <div class="section-header center scroll-reveal">
+          <span class="section-tag">Find Us</span>
+          <h2 class="section-title">Visit <span class="gradient-text">Apex Care Hospital</span></h2>
+        </div>
+        <div class="location-grid scroll-reveal">
+          <div class="location-card">
+            <div class="loc-info-row">
+              <div class="loc-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </div>
+              <div>
+                <h4>Address</h4>
+                <p>Guru Nanak Colony, Sector 23, Jammu–Delhi Rd, near Nalas Road, Bharat Colony, Rajpura, Punjab 140401</p>
+              </div>
+            </div>
+            <div class="loc-info-row">
+              <div class="loc-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div>
+                <h4>Hours</h4>
+                <p>Open 24 hours — every day of the week</p>
+              </div>
+            </div>
+            <div class="loc-info-row">
+              <div class="loc-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.25a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+919814203081">098142 03081</a></p>
+              </div>
+            </div>
+            <div class="loc-info-row">
+              <div class="loc-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <h4>Services</h4>
+                <p>Emergency, General Medicine, Surgery, Diagnostics, Pharmacy, Maternity</p>
+              </div>
+            </div>
+            <a class="btn btn-primary btn-full" href="https://www.google.com/maps/place/Apex+Care+Hospital/data=!4m2!3m1!1s0x0:0xecb72e89a5816e2a?sa=X&ved=1t:2428&ictx=111" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              Open in Google Maps
+            </a>
+          </div>
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps?q=Apex+Care+Hospital,+Guru+Nanak+Colony,+Sector+23,+Bharat+Colony,+Rajpura,+Punjab+140401&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Map to Apex Care Hospital, Rajpura"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#top" class="logo footer-logo">
+            <img src="images/logo.png" alt="Apex Care Hospital Logo" class="logo-img" id="footerLogoImg">
+            <div class="logo-text">
+              <span class="logo-name">Apex Care</span>
+              <span class="logo-sub">Hospital</span>
+            </div>
+          </a>
+          <p>Multispecialty hospital on the Jammu–Delhi Road, Rajpura — open 24 hours for emergency and outpatient care. Your health is our priority.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.google.com/maps/place/Apex+Care+Hospital/data=!4m2!3m1!1s0x0:0xecb72e89a5816e2a" target="_blank" rel="noopener" aria-label="Google Maps">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#location">Find Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Emergency & Trauma</a></li>
+            <li><a href="#services">General Medicine</a></li>
+            <li><a href="#services">Surgery</a></li>
+            <li><a href="#services">Diagnostics & Lab</a></li>
+            <li><a href="#services">Maternity Care</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h5>Contact Us</h5>
+          <ul>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.25a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+919814203081">098142 03081</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Open 24 Hours
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              Sector 23, Rajpura
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Apex Care Hospital, Rajpura. All rights reserved.</span>
+        <span>Guru Nanak Colony, Sector 23, Rajpura, Punjab 140401</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom Bar -->
+  <div class="mobile-bottom-bar">
+    <a href="tel:+919814203081" class="mobile-bar-btn emergency">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.25a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+      Call Now
+    </a>
+    <a href="https://www.google.com/maps/place/Apex+Care+Hospital/data=!4m2!3m1!1s0x0:0xecb72e89a5816e2a?sa=X&ved=1t:2428&ictx=111" target="_blank" rel="noopener" class="mobile-bar-btn directions">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.6-7-11a7 7 0 0 1 14 0c0 5.4-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+      Directions
+    </a>
+  </div>
+
+  <script>
+  (function() {
+    'use strict';
+
+    // ─── Year ───
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ─── Header scroll ───
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ─── Mobile menu ───
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('active', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        hamburger.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // ─── Smooth scroll ───
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          const offset = header.offsetHeight;
+          window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - offset, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // ─── Scroll reveal ───
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+    document.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
+
+    // ─── Stat counters ───
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const animateCounter = (el) => {
+      const target = parseInt(el.dataset.count, 10);
+      if (prefersReduced || target <= 1) { el.textContent = target; return; }
+      let cur = 0;
+      const step = Math.max(1, Math.ceil(target / 60));
+      const interval = 2000 / (target / step);
+      const timer = setInterval(() => {
+        cur += step;
+        if (cur >= target) { el.textContent = target; clearInterval(timer); return; }
+        el.textContent = cur;
+      }, interval);
+    };
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          document.querySelectorAll('.stat-number').forEach(animateCounter);
+          statsObserver.disconnect();
+        }
+      });
+    }, { threshold: 0.4 });
+    const statsBand = document.querySelector('.stats-band');
+    if (statsBand) statsObserver.observe(statsBand);
+
+    // ─── Hero animation ───
+    requestAnimationFrame(() => {
+      document.querySelector('.hero').classList.add('loaded');
+    });
+
+    // ═══════════════════════════════════════════════════
+    //  DYNAMIC IMAGE LOADING FROM MANIFEST (CORS & FILE SAFE)
+    // ═══════════════════════════════════════════════════
+
+    let heroSlideIndex = 0;
+    let heroSlideTimer = null;
+
+    const DEFAULT_MANIFEST = {
+      logo: "images/logo.png",
+      hero: [
+        "images/hero/hospital-building.jpg",
+        "images/hero/hospital-exterior.jpg"
+      ],
+      gallery: [
+        "images/gallery/diagnostics-lab.jpg",
+        "images/gallery/emergency-department.jpg",
+        "images/gallery/hospital-exterior.jpg",
+        "images/gallery/hospital-signage.jpg",
+        "images/gallery/reception-lobby.jpg"
+      ],
+      about: [
+        "images/about/hospital-enhanced.jpg",
+        "images/about/hospital-original.jpg",
+        "images/about/medical-team.jpg"
+      ]
+    };
+
+    function applyManifest(manifest) {
+      if (!manifest) return;
+      if (manifest.hero && manifest.hero.length) loadHeroImages(manifest.hero);
+      if (manifest.about && manifest.about.length) {
+        loadAboutImages(manifest.about);
+        loadWhyVisual(manifest.about);
+      }
+      if (manifest.gallery && manifest.gallery.length) loadGalleryImages(manifest.gallery);
+      if (manifest.logo) loadLogo(manifest.logo);
+    }
+
+    if (window.IMAGES_MANIFEST) {
+      applyManifest(window.IMAGES_MANIFEST);
+    } else {
+      fetch('images-manifest.json')
+        .then(res => res.json())
+        .then(manifest => applyManifest(manifest))
+        .catch(err => {
+          console.warn('Using default manifest fallback:', err);
+          applyManifest(DEFAULT_MANIFEST);
+        });
+    }
+
+    // ── Logo ──
+    function loadLogo(logoPath) {
+      document.querySelectorAll('.logo-img').forEach(img => {
+        img.src = logoPath;
+      });
+    }
+
+    // ── Hero Slideshow ──
+    function loadHeroImages(images) {
+      const heroBg = document.getElementById('heroBg');
+      const indicators = document.getElementById('heroIndicators');
+      if (!images || images.length === 0) return;
+
+      // Create image elements
+      images.forEach((src, i) => {
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = 'Apex Care Hospital';
+        img.className = 'hero-bg-img' + (i === 0 ? ' active' : '');
+        img.loading = i === 0 ? 'eager' : 'lazy';
+        heroBg.insertBefore(img, heroBg.querySelector('.hero-overlay'));
+
+        // Indicator dot
+        if (images.length > 1) {
+          const dot = document.createElement('button');
+          dot.className = 'hero-dot' + (i === 0 ? ' active' : '');
+          dot.setAttribute('aria-label', `Slide ${i + 1}`);
+          dot.addEventListener('click', () => goToHeroSlide(i));
+          indicators.appendChild(dot);
+        }
+      });
+
+      // Auto-rotate if multiple images
+      if (images.length > 1) {
+        heroSlideTimer = setInterval(() => {
+          goToHeroSlide((heroSlideIndex + 1) % images.length);
+        }, 6000);
+      }
+    }
+
+    function goToHeroSlide(index) {
+      const imgs = document.querySelectorAll('#heroBg .hero-bg-img');
+      const dots = document.querySelectorAll('.hero-dot');
+      if (!imgs.length) return;
+
+      imgs[heroSlideIndex].classList.remove('active');
+      if (dots[heroSlideIndex]) dots[heroSlideIndex].classList.remove('active');
+
+      heroSlideIndex = index;
+
+      imgs[heroSlideIndex].classList.add('active');
+      if (dots[heroSlideIndex]) dots[heroSlideIndex].classList.add('active');
+
+      // Reset timer
+      if (heroSlideTimer) clearInterval(heroSlideTimer);
+      heroSlideTimer = setInterval(() => {
+        goToHeroSlide((heroSlideIndex + 1) % imgs.length);
+      }, 6000);
+    }
+
+    // ── About Images ──
+    function loadAboutImages(images) {
+      const container = document.getElementById('aboutImages');
+      if (!images || images.length === 0 || !container) return;
+
+      // Main image (first)
+      const mainDiv = document.createElement('div');
+      mainDiv.className = 'about-img-main';
+      const mainImg = document.createElement('img');
+      mainImg.src = images[0];
+      mainImg.alt = 'Apex Care Hospital';
+      mainImg.loading = 'lazy';
+      mainDiv.appendChild(mainImg);
+      container.appendChild(mainDiv);
+
+      // Secondary image (second, if exists)
+      if (images.length > 1) {
+        const secDiv = document.createElement('div');
+        secDiv.className = 'about-img-secondary';
+        const secImg = document.createElement('img');
+        secImg.src = images[1];
+        secImg.alt = 'Apex Care Hospital';
+        secImg.loading = 'lazy';
+        secDiv.appendChild(secImg);
+        container.appendChild(secDiv);
+      }
+
+      // Experience badge
+      const badge = document.createElement('div');
+      badge.className = 'about-experience-badge';
+      badge.innerHTML = '<span class="exp-number">24/7</span><span class="exp-text">Always Open</span>';
+      container.appendChild(badge);
+    }
+
+    // ── Gallery ──
+    function loadGalleryImages(images) {
+      const grid = document.getElementById('galleryGrid');
+      if (!images || images.length === 0 || !grid) return;
+
+      images.forEach((src, i) => {
+        const item = document.createElement('div');
+        item.className = 'gallery-item' + (i === 0 ? ' large' : '');
+        
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = 'Apex Care Hospital Facility';
+        img.loading = 'lazy';
+        
+        const caption = document.createElement('div');
+        caption.className = 'gallery-caption';
+        // Generate caption from filename
+        const name = src.split('/').pop().replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
+        caption.textContent = name.charAt(0).toUpperCase() + name.slice(1);
+        
+        item.appendChild(img);
+        item.appendChild(caption);
+        grid.appendChild(item);
+      });
+    }
+
+    // ── Why Visual ──
+    function loadWhyVisual(images) {
+      const container = document.getElementById('whyVisual');
+      if (!images || images.length === 0 || !container) return;
+
+      // Use the last about image (or first if only one)
+      const imgSrc = images[images.length - 1];
+
+      container.innerHTML = `
+        <div class="why-card">
+          <div class="why-card-glow"></div>
+          <img src="${imgSrc}" alt="Apex Care Hospital" loading="lazy">
+          <div class="why-card-content">
+            <h3>Sector 23's Emergency Line</h3>
+            <p>Save this number — it rings straight to the hospital desk, any hour, any day.</p>
+            <a href="tel:+919814203081" class="btn btn-primary" style="margin-top:16px;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.25a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+              098142 03081
+            </a>
+          </div>
+        </div>
+      `;
+    }
+
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "apex-care-hospital",
+  "version": "1.0.0",
+  "description": "Apex Care Hospital - Rajpura | 24-Hour Multispecialty Care",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && npx -y serve ."
+  }
+}
